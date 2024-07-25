@@ -76,5 +76,93 @@
     height: 407px;
     padding: 96px 0px 96px 0px;
     gap: 24px;
-    background-color: #667085;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.subheading {
+    
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #8E2424;
+
+}
+.heading {
+
+    padding: 0px 32px 0px 32px;
+    gap: 64px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.conteudo {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #667085;
+    ;
+
+}
+
+
+.container_metricas {
+    width: 1440px;
+    height: 288px;
+    padding: 0px 0px 96px 0px;
+    gap: 64px;
+
+}
+
+.conteudo_metricas {
+    width: 1216px;
+    height: 192px;
+    gap: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.metrica {
+    width: 280pxpx;
+    height: 168pxpx;
+    gap: 20px;
+    opacity: 0px;
+}
+
+.numero_metrica {
+    font-family: Inter;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #8E2424;
+}
+
+.titulo_metrica {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    color: #101828;
+}
+
+.texto_metrica {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #667085;
 }
